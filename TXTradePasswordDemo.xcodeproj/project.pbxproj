@@ -15,6 +15,7 @@
 		7FC5A8A81C38BA58009C1059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC5A8A61C38BA58009C1059 /* LaunchScreen.storyboard */; };
 		7FC5A8B31C38BA58009C1059 /* TXTradePasswordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5A8B21C38BA58009C1059 /* TXTradePasswordDemoTests.m */; };
 		7FC5A8BE1C38BA58009C1059 /* TXTradePasswordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5A8BD1C38BA58009C1059 /* TXTradePasswordDemoUITests.m */; };
+		7FC5A8CE1C38BA9E009C1059 /* TXTradePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5A8CD1C38BA9E009C1059 /* TXTradePasswordView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7FC5A8B91C38BA58009C1059 /* TXTradePasswordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXTradePasswordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC5A8BD1C38BA58009C1059 /* TXTradePasswordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTradePasswordDemoUITests.m; sourceTree = "<group>"; };
 		7FC5A8BF1C38BA58009C1059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC5A8CC1C38BA9E009C1059 /* TXTradePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTradePasswordView.h; sourceTree = "<group>"; };
+		7FC5A8CD1C38BA9E009C1059 /* TXTradePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTradePasswordView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7FC5A8971C38BA58009C1059 /* TXTradePasswordDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7FC5A8CB1C38BA9E009C1059 /* TXTradePassword */,
 				7FC5A89B1C38BA58009C1059 /* AppDelegate.h */,
 				7FC5A89C1C38BA58009C1059 /* AppDelegate.m */,
 				7FC5A89E1C38BA58009C1059 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				7FC5A8BF1C38BA58009C1059 /* Info.plist */,
 			);
 			path = TXTradePasswordDemoUITests;
+			sourceTree = "<group>";
+		};
+		7FC5A8CB1C38BA9E009C1059 /* TXTradePassword */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5A8CC1C38BA9E009C1059 /* TXTradePasswordView.h */,
+				7FC5A8CD1C38BA9E009C1059 /* TXTradePasswordView.m */,
+			);
+			path = TXTradePassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				7FC5A8A01C38BA58009C1059 /* ViewController.m in Sources */,
 				7FC5A89D1C38BA58009C1059 /* AppDelegate.m in Sources */,
+				7FC5A8CE1C38BA9E009C1059 /* TXTradePasswordView.m in Sources */,
 				7FC5A89A1C38BA58009C1059 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
